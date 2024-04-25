@@ -1,6 +1,8 @@
 import Aboutus from "@/components/Aboutus";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Qanda from "@/components/Qanda";
 
 export default function Home() {
     return (
@@ -13,6 +15,12 @@ export default function Home() {
             </div>
             <div className="w-full">
                 <Aboutus />
+            </div>
+            <div className="w-full">
+                <Qanda />
+            </div>
+            <div className="w-full">
+                <Footer />
             </div>
         </main>
     );

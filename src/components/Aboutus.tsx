@@ -10,13 +10,13 @@ const Aboutus = () => {
                     alt="aboutus"
                     width={600}
                     height={600}
-                    className="max-xl:mb-6 rounded-3xl drop-shadow-2xl shadow-lg"
+                    className="max-xl:mb-6 rounded-3xl drop-shadow-2xl shadow-xl"
                 />
                 <div className="max-xl:w-[60%] max-lg:w-[80%] max-sm:w-full w-[50%] flex flex-col justify-center items-end">
                     <h2 className="max-sm:text-4xl w-full max-xl: font-bold text-6xl text-right mb-6">
                         یه سری تابلوی خاص
                     </h2>
-                    <p className="w-full max-xl: text-xl text-right text-gray-600">
+                    <p className="w-full text-xl text-right text-gray-600">
                         جریان از این قراره که توی مصور همه چیز برای زیباتر شدن
                         ساخته میشه. از غالب ها بگیر تا فیگور ها. جریان زیبایی هم
                         بر میگرده به نگاه به زندگی. نه ما هرگز سعی نمی کنیم بگیم
